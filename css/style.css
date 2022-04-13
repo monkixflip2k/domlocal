@@ -1,0 +1,62 @@
+.red{
+    background: red;
+}
+.big{
+    font-size: 24px;
+}
+.block{
+    border:1px solid black;
+    background: yellow;
+}
+
+
+
+.del{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.del:hover{
+    color: brown;
+}
+
+
+
+.desk{
+    display: flex;
+    margin-top: 30px;
+    border: solid 2px;
+    min-width: 700px;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.list{
+    border-radius: 5px;
+    border: solid rgb(93, 75, 122) 2px;
+    box-shadow:7px 5px 5px rgb(78, 78, 78);
+    background: rgb(150, 131, 236);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    min-width: 40px;
+    min-height: 50px;
+}
+.new_list{
+    border: solid 2px;
+    border-radius: 15px;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+}
+#btn-create-list{
+    margin-top: 10px;
+    padding: 7px;
+    background: rgb(150, 131, 236);
+    border: solid rgb(93, 75, 122) 2px;
+    border-radius: 5px;
+}
+#list-name{
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    border: solid rgb(93, 75, 122) 2px;
+}
